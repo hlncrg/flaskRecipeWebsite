@@ -1,0 +1,902 @@
+2015-10-01 17:44:55,596 CRIT Set uid to user 0
+2015-10-01 17:44:55,598 INFO daemonizing the supervisord process
+2015-10-01 17:44:55,599 INFO supervisord started with pid 17623
+2015-10-01 17:44:56,601 INFO spawned: 'myserver' with pid 17624
+2015-10-01 17:44:56,673 DEBG 'myserver' stderr output:
+2015-10-01 17:44:56 [17624] [INFO] Starting gunicorn 17.5
+2015-10-01 17:44:56 [17624] [INFO] Listening at: http://0.0.0.0:80 (17624)
+2015-10-01 17:44:56 [17624] [INFO] Using worker: sync
+
+2015-10-01 17:44:56,674 DEBG 'myserver' stderr output:
+2015-10-01 17:44:56 [17629] [INFO] Booting worker with pid: 17629
+
+2015-10-01 17:44:56,721 DEBG 'myserver' stderr output:
+2015-10-01 17:44:56 [17632] [INFO] Booting worker with pid: 17632
+
+2015-10-01 17:44:56,794 DEBG 'myserver' stderr output:
+2015-10-01 17:44:56 [17635] [INFO] Booting worker with pid: 17635
+
+2015-10-01 17:44:56,809 DEBG 'myserver' stderr output:
+2015-10-01 17:44:56 [17636] [INFO] Booting worker with pid: 17636
+
+2015-10-01 17:44:57,810 INFO success: myserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2015-10-01 17:47:20,088 WARN received SIGTERM indicating exit request
+2015-10-01 17:47:20,088 DEBG killing myserver (pid 17624) with signal SIGTERM
+2015-10-01 17:47:20,088 INFO waiting for myserver to die
+2015-10-01 17:47:20,104 DEBG 'myserver' stderr output:
+2015-10-01 17:47:20 [17624] [INFO] Handling signal: term
+2015-10-01 17:47:20 [17632] [INFO] Worker exiting (pid: 17632)
+2015-10-01 17:47:20 [17635] [INFO] Worker exiting (pid: 17635)
+2015-10-01 17:47:20 [17636] [INFO] Worker exiting (pid: 17636)
+2015-10-01 17:47:20 [17629] [INFO] Worker exiting (pid: 17629)
+
+2015-10-01 17:47:20,104 DEBG 'myserver' stdout output:
+image id  24445.jpg
+image id  23600.jpg
+image id  15880.jpg
+image id  7402.jpg
+image id  8270.jpg
+image id  25642.jpg
+image id  9998.jpg
+image id  9827.jpg
+image id  143667.jpg
+image id  9999.jpg
+image id  cookiecute.jpg
+image id  15004.jpg
+image id  10687.jpg
+image id  10497.jpg
+image id  22544.jpg
+image id  background.jpg
+image id  17481.jpg
+image id  8372.jpg
+image id  17981.jpg
+image id  102133.jpg
+image id  9471.jpg
+image id  21398.jpg
+image id  10308.jpg
+image id  10222.jpg
+image id  10141.jpg
+image id  17165.jpg
+image id  12142.jpg
+image id  15093.jpg
+image id  7565.jpg
+image id  8333.jpg
+image id  51535.jpg
+image id  9870.jpg
+image id  19247.jpg
+image id  25112.jpg
+image id  15821.jpg
+image id  about.png
+image id  25037.jpg
+image id  10813.jpg
+image id  12682.jpg
+image id  23439.jpg
+image id  8350.jpg
+image id  13477.jpg
+image id  67656.jpg
+image id  12409.jpg
+image id  10549.jpg
+image id  7177.jpg
+image id  10275.jpg
+image id  19017.jpg
+
+2015-10-01 17:47:20,136 DEBG 'myserver' stderr output:
+2015-10-01 17:47:20 [17624] [INFO] Shutting down: Master
+
+2015-10-01 17:47:20,139 DEBG fd 6 closed, stopped monitoring <POutputDispatcher at 140058043007128 for <Subprocess at 140058042945480 with name myserver in state STOPPING> (stdout)>
+2015-10-01 17:47:20,139 DEBG fd 8 closed, stopped monitoring <POutputDispatcher at 140058043007344 for <Subprocess at 140058042945480 with name myserver in state STOPPING> (stderr)>
+2015-10-01 17:47:20,139 INFO stopped: myserver (exit status 0)
+2015-10-01 17:47:20,139 DEBG received SIGCLD indicating a child quit
+2015-10-01 17:47:23,428 CRIT Set uid to user 0
+2015-10-01 17:47:23,430 INFO daemonizing the supervisord process
+2015-10-01 17:47:23,430 INFO supervisord started with pid 17673
+2015-10-01 17:47:24,432 INFO spawned: 'myserver' with pid 17674
+2015-10-01 17:47:24,503 DEBG 'myserver' stderr output:
+2015-10-01 17:47:24 [17674] [INFO] Starting gunicorn 17.5
+2015-10-01 17:47:24 [17674] [INFO] Listening at: http://0.0.0.0:80 (17674)
+2015-10-01 17:47:24 [17674] [INFO] Using worker: sync
+
+2015-10-01 17:47:24,504 DEBG 'myserver' stderr output:
+2015-10-01 17:47:24 [17679] [INFO] Booting worker with pid: 17679
+
+2015-10-01 17:47:24,553 DEBG 'myserver' stderr output:
+2015-10-01 17:47:24 [17682] [INFO] Booting worker with pid: 17682
+
+2015-10-01 17:47:24,591 DEBG 'myserver' stderr output:
+2015-10-01 17:47:24 [17683] [INFO] Booting worker with pid: 17683
+
+2015-10-01 17:47:24,653 DEBG 'myserver' stderr output:
+2015-10-01 17:47:24 [17688] [INFO] Booting worker with pid: 17688
+
+2015-10-01 17:47:25,654 INFO success: myserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2015-10-01 17:53:43,439 WARN received SIGTERM indicating exit request
+2015-10-01 17:53:43,439 DEBG killing myserver (pid 17674) with signal SIGTERM
+2015-10-01 17:53:43,439 INFO waiting for myserver to die
+2015-10-01 17:53:43,440 DEBG 'myserver' stderr output:
+2015-10-01 17:53:43 [17674] [INFO] Handling signal: term
+
+2015-10-01 17:53:43,445 DEBG 'myserver' stderr output:
+2015-10-01 17:53:43 [17688] [INFO] Worker exiting (pid: 17688)
+
+2015-10-01 17:53:43,448 DEBG 'myserver' stderr output:
+2015-10-01 17:53:43 [17682] [INFO] Worker exiting (pid: 17682)
+
+2015-10-01 17:53:43,452 DEBG 'myserver' stderr output:
+2015-10-01 17:53:43 [17683] [INFO] Worker exiting (pid: 17683)
+
+2015-10-01 17:53:43,456 DEBG 'myserver' stderr output:
+2015-10-01 17:53:43 [17679] [INFO] Worker exiting (pid: 17679)
+
+2015-10-01 17:53:43,488 DEBG 'myserver' stderr output:
+2015-10-01 17:53:43 [17674] [INFO] Shutting down: Master
+
+2015-10-01 17:53:43,491 DEBG fd 6 closed, stopped monitoring <POutputDispatcher at 139794473017496 for <Subprocess at 139794472955848 with name myserver in state STOPPING> (stdout)>
+2015-10-01 17:53:43,491 DEBG fd 8 closed, stopped monitoring <POutputDispatcher at 139794473017712 for <Subprocess at 139794472955848 with name myserver in state STOPPING> (stderr)>
+2015-10-01 17:53:43,491 INFO stopped: myserver (exit status 0)
+2015-10-01 17:53:43,491 DEBG received SIGCLD indicating a child quit
+2015-10-01 17:53:46,290 CRIT Set uid to user 0
+2015-10-01 17:53:46,292 INFO daemonizing the supervisord process
+2015-10-01 17:53:46,292 INFO supervisord started with pid 17712
+2015-10-01 17:53:47,295 INFO spawned: 'myserver' with pid 17713
+2015-10-01 17:53:47,364 DEBG 'myserver' stderr output:
+2015-10-01 17:53:47 [17713] [INFO] Starting gunicorn 17.5
+2015-10-01 17:53:47 [17713] [INFO] Listening at: http://0.0.0.0:80 (17713)
+
+2015-10-01 17:53:47,365 DEBG 'myserver' stderr output:
+2015-10-01 17:53:47 [17713] [INFO] Using worker: sync
+
+2015-10-01 17:53:47,366 DEBG 'myserver' stderr output:
+2015-10-01 17:53:47 [17718] [INFO] Booting worker with pid: 17718
+
+2015-10-01 17:53:47,466 DEBG 'myserver' stderr output:
+2015-10-01 17:53:47 [17721] [INFO] Booting worker with pid: 17721
+
+2015-10-01 17:53:47,501 DEBG 'myserver' stderr output:
+2015-10-01 17:53:47 [17722] [INFO] Booting worker with pid: 17722
+
+2015-10-01 17:53:47,586 DEBG 'myserver' stderr output:
+2015-10-01 17:53:47 [17727] [INFO] Booting worker with pid: 17727
+
+2015-10-01 17:53:48,587 INFO success: myserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2015-10-01 17:55:00,042 WARN received SIGTERM indicating exit request
+2015-10-01 17:55:00,042 DEBG killing myserver (pid 17713) with signal SIGTERM
+2015-10-01 17:55:00,060 INFO waiting for myserver to die
+2015-10-01 17:55:00,060 DEBG 'myserver' stderr output:
+2015-10-01 17:55:00 [17713] [INFO] Handling signal: term
+2015-10-01 17:55:00 [17721] [INFO] Worker exiting (pid: 17721)
+2015-10-01 17:55:00 [17722] [INFO] Worker exiting (pid: 17722)
+2015-10-01 17:55:00 [17718] [INFO] Worker exiting (pid: 17718)
+2015-10-01 17:55:00 [17727] [INFO] Worker exiting (pid: 17727)
+
+2015-10-01 17:55:00,092 DEBG 'myserver' stderr output:
+2015-10-01 17:55:00 [17713] [INFO] Shutting down: Master
+
+2015-10-01 17:55:00,094 DEBG fd 6 closed, stopped monitoring <POutputDispatcher at 140640325173400 for <Subprocess at 140640325111752 with name myserver in state STOPPING> (stdout)>
+2015-10-01 17:55:00,094 DEBG fd 8 closed, stopped monitoring <POutputDispatcher at 140640325173616 for <Subprocess at 140640325111752 with name myserver in state STOPPING> (stderr)>
+2015-10-01 17:55:00,094 INFO stopped: myserver (exit status 0)
+2015-10-01 17:55:00,094 DEBG received SIGCLD indicating a child quit
+2015-10-01 17:55:04,222 CRIT Set uid to user 0
+2015-10-01 17:55:04,224 INFO daemonizing the supervisord process
+2015-10-01 17:55:04,225 INFO supervisord started with pid 17739
+2015-10-01 17:55:05,227 INFO spawned: 'myserver' with pid 17740
+2015-10-01 17:55:05,298 DEBG 'myserver' stderr output:
+2015-10-01 17:55:05 [17740] [INFO] Starting gunicorn 17.5
+2015-10-01 17:55:05 [17740] [INFO] Listening at: http://0.0.0.0:80 (17740)
+2015-10-01 17:55:05 [17740] [INFO] Using worker: sync
+
+2015-10-01 17:55:05,299 DEBG 'myserver' stderr output:
+2015-10-01 17:55:05 [17745] [INFO] Booting worker with pid: 17745
+
+2015-10-01 17:55:05,321 DEBG 'myserver' stderr output:
+2015-10-01 17:55:05 [17746] [INFO] Booting worker with pid: 17746
+
+2015-10-01 17:55:05,333 DEBG 'myserver' stderr output:
+2015-10-01 17:55:05 [17747] [INFO] Booting worker with pid: 17747
+
+2015-10-01 17:55:05,349 DEBG 'myserver' stderr output:
+2015-10-01 17:55:05 [17748] [INFO] Booting worker with pid: 17748
+
+2015-10-01 17:55:06,350 INFO success: myserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2015-10-01 21:47:23,935 WARN received SIGTERM indicating exit request
+2015-10-01 21:47:23,936 DEBG killing myserver (pid 17740) with signal SIGTERM
+2015-10-01 21:47:23,952 INFO waiting for myserver to die
+2015-10-01 21:47:23,952 DEBG 'myserver' stderr output:
+2015-10-01 21:47:23 [17740] [INFO] Handling signal: term
+2015-10-01 21:47:23 [17745] [INFO] Worker exiting (pid: 17745)
+2015-10-01 21:47:23 [17746] [INFO] Worker exiting (pid: 17746)
+2015-10-01 21:47:23 [17747] [INFO] Worker exiting (pid: 17747)
+2015-10-01 21:47:23 [17748] [INFO] Worker exiting (pid: 17748)
+
+2015-10-01 21:47:23,984 DEBG 'myserver' stderr output:
+2015-10-01 21:47:23 [17740] [INFO] Shutting down: Master
+
+2015-10-01 21:47:23,988 DEBG fd 6 closed, stopped monitoring <POutputDispatcher at 140187203981464 for <Subprocess at 140187203919816 with name myserver in state STOPPING> (stdout)>
+2015-10-01 21:47:23,988 DEBG fd 8 closed, stopped monitoring <POutputDispatcher at 140187203981680 for <Subprocess at 140187203919816 with name myserver in state STOPPING> (stderr)>
+2015-10-01 21:47:23,989 INFO stopped: myserver (exit status 0)
+2015-10-01 21:47:23,989 DEBG received SIGCLD indicating a child quit
+2015-10-01 21:47:30,822 CRIT Set uid to user 0
+2015-10-01 21:47:30,824 INFO daemonizing the supervisord process
+2015-10-01 21:47:30,825 INFO supervisord started with pid 18132
+2015-10-01 21:47:31,827 INFO spawned: 'myserver' with pid 18133
+2015-10-01 21:47:31,899 DEBG 'myserver' stderr output:
+2015-10-01 21:47:31 [18133] [INFO] Starting gunicorn 17.5
+2015-10-01 21:47:31 [18133] [INFO] Listening at: http://0.0.0.0:80 (18133)
+2015-10-01 21:47:31 [18133] [INFO] Using worker: sync
+
+2015-10-01 21:47:31,900 DEBG 'myserver' stderr output:
+2015-10-01 21:47:31 [18138] [INFO] Booting worker with pid: 18138
+
+2015-10-01 21:47:31,984 DEBG 'myserver' stderr output:
+2015-10-01 21:47:31 [18141] [INFO] Booting worker with pid: 18141
+
+2015-10-01 21:47:32,029 DEBG 'myserver' stderr output:
+2015-10-01 21:47:32 [18144] [INFO] Booting worker with pid: 18144
+
+2015-10-01 21:47:32,124 DEBG 'myserver' stderr output:
+2015-10-01 21:47:32 [18147] [INFO] Booting worker with pid: 18147
+
+2015-10-01 21:47:33,125 INFO success: myserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2015-10-01 21:48:56,297 WARN received SIGTERM indicating exit request
+2015-10-01 21:48:56,297 DEBG killing myserver (pid 18133) with signal SIGTERM
+2015-10-01 21:48:56,297 INFO waiting for myserver to die
+2015-10-01 21:48:56,315 DEBG 'myserver' stderr output:
+2015-10-01 21:48:56 [18133] [INFO] Handling signal: term
+2015-10-01 21:48:56 [18144] [INFO] Worker exiting (pid: 18144)
+2015-10-01 21:48:56 [18138] [INFO] Worker exiting (pid: 18138)
+2015-10-01 21:48:56 [18147] [INFO] Worker exiting (pid: 18147)
+2015-10-01 21:48:56 [18141] [INFO] Worker exiting (pid: 18141)
+
+2015-10-01 21:48:56,344 DEBG 'myserver' stderr output:
+2015-10-01 21:48:56 [18133] [INFO] Shutting down: Master
+
+2015-10-01 21:48:56,349 DEBG fd 6 closed, stopped monitoring <POutputDispatcher at 140288124403864 for <Subprocess at 140288124342216 with name myserver in state STOPPING> (stdout)>
+2015-10-01 21:48:56,349 DEBG fd 8 closed, stopped monitoring <POutputDispatcher at 140288124404080 for <Subprocess at 140288124342216 with name myserver in state STOPPING> (stderr)>
+2015-10-01 21:48:56,350 INFO stopped: myserver (exit status 0)
+2015-10-01 21:48:56,350 DEBG received SIGCLD indicating a child quit
+2015-10-01 21:48:58,457 CRIT Set uid to user 0
+2015-10-01 21:48:58,459 INFO daemonizing the supervisord process
+2015-10-01 21:48:58,459 INFO supervisord started with pid 18158
+2015-10-01 21:48:59,461 INFO spawned: 'myserver' with pid 18159
+2015-10-01 21:48:59,534 DEBG 'myserver' stderr output:
+2015-10-01 21:48:59 [18159] [INFO] Starting gunicorn 17.5
+2015-10-01 21:48:59 [18159] [INFO] Listening at: http://0.0.0.0:80 (18159)
+2015-10-01 21:48:59 [18159] [INFO] Using worker: sync
+
+2015-10-01 21:48:59,535 DEBG 'myserver' stderr output:
+2015-10-01 21:48:59 [18164] [INFO] Booting worker with pid: 18164
+
+2015-10-01 21:48:59,545 DEBG 'myserver' stderr output:
+2015-10-01 21:48:59 [18165] [INFO] Booting worker with pid: 18165
+
+2015-10-01 21:48:59,581 DEBG 'myserver' stderr output:
+2015-10-01 21:48:59 [18166] [INFO] Booting worker with pid: 18166
+
+2015-10-01 21:48:59,597 DEBG 'myserver' stderr output:
+2015-10-01 21:48:59 [18167] [INFO] Booting worker with pid: 18167
+
+2015-10-01 21:49:00,598 INFO success: myserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2015-10-01 22:06:39,981 WARN received SIGTERM indicating exit request
+2015-10-01 22:06:39,981 DEBG killing myserver (pid 18159) with signal SIGTERM
+2015-10-01 22:06:39,981 INFO waiting for myserver to die
+2015-10-01 22:06:40,000 DEBG 'myserver' stderr output:
+2015-10-01 22:06:39 [18159] [INFO] Handling signal: term
+2015-10-01 22:06:39 [18164] [INFO] Worker exiting (pid: 18164)
+2015-10-01 22:06:39 [18165] [INFO] Worker exiting (pid: 18165)
+2015-10-01 22:06:39 [18166] [INFO] Worker exiting (pid: 18166)
+2015-10-01 22:06:39 [18167] [INFO] Worker exiting (pid: 18167)
+
+2015-10-01 22:06:40,028 DEBG 'myserver' stderr output:
+2015-10-01 22:06:40 [18159] [INFO] Shutting down: Master
+
+2015-10-01 22:06:40,034 DEBG fd 6 closed, stopped monitoring <POutputDispatcher at 139844365762712 for <Subprocess at 139844365701064 with name myserver in state STOPPING> (stdout)>
+2015-10-01 22:06:40,034 DEBG fd 8 closed, stopped monitoring <POutputDispatcher at 139844365762928 for <Subprocess at 139844365701064 with name myserver in state STOPPING> (stderr)>
+2015-10-01 22:06:40,034 INFO stopped: myserver (exit status 0)
+2015-10-01 22:06:40,034 DEBG received SIGCLD indicating a child quit
+2015-10-01 22:06:43,236 CRIT Set uid to user 0
+2015-10-01 22:06:43,239 INFO daemonizing the supervisord process
+2015-10-01 22:06:43,239 INFO supervisord started with pid 18233
+2015-10-01 22:06:44,241 INFO spawned: 'myserver' with pid 18234
+2015-10-01 22:06:44,312 DEBG 'myserver' stderr output:
+2015-10-01 22:06:44 [18234] [INFO] Starting gunicorn 17.5
+2015-10-01 22:06:44 [18234] [INFO] Listening at: http://0.0.0.0:80 (18234)
+2015-10-01 22:06:44 [18234] [INFO] Using worker: sync
+
+2015-10-01 22:06:44,313 DEBG 'myserver' stderr output:
+2015-10-01 22:06:44 [18239] [INFO] Booting worker with pid: 18239
+
+2015-10-01 22:06:44,333 DEBG 'myserver' stderr output:
+2015-10-01 22:06:44 [18240] [INFO] Booting worker with pid: 18240
+
+2015-10-01 22:06:44,417 DEBG 'myserver' stderr output:
+2015-10-01 22:06:44 [18245] [INFO] Booting worker with pid: 18245
+
+2015-10-01 22:06:44,465 DEBG 'myserver' stderr output:
+2015-10-01 22:06:44 [18248] [INFO] Booting worker with pid: 18248
+
+2015-10-01 22:06:45,466 INFO success: myserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2015-10-05 20:11:25,083 WARN received SIGTERM indicating exit request
+2015-10-05 20:11:25,083 DEBG killing myserver (pid 18234) with signal SIGTERM
+2015-10-05 20:11:25,084 INFO waiting for myserver to die
+2015-10-05 20:11:25,100 DEBG 'myserver' stderr output:
+2015-10-05 20:11:25 [18234] [INFO] Handling signal: term
+2015-10-05 20:11:25 [18240] [INFO] Worker exiting (pid: 18240)
+2015-10-05 20:11:25 [18248] [INFO] Worker exiting (pid: 18248)
+2015-10-05 20:11:25 [18245] [INFO] Worker exiting (pid: 18245)
+2015-10-05 20:11:25 [18239] [INFO] Worker exiting (pid: 18239)
+
+2015-10-05 20:11:25,136 DEBG 'myserver' stderr output:
+2015-10-05 20:11:25 [18234] [INFO] Shutting down: Master
+
+2015-10-05 20:11:25,138 DEBG fd 6 closed, stopped monitoring <POutputDispatcher at 139869927600280 for <Subprocess at 139869927538632 with name myserver in state STOPPING> (stdout)>
+2015-10-05 20:11:25,138 DEBG fd 8 closed, stopped monitoring <POutputDispatcher at 139869927600496 for <Subprocess at 139869927538632 with name myserver in state STOPPING> (stderr)>
+2015-10-05 20:11:25,139 INFO stopped: myserver (exit status 0)
+2015-10-05 20:11:25,139 DEBG received SIGCLD indicating a child quit
+2015-10-05 20:11:33,035 CRIT Set uid to user 0
+2015-10-05 20:11:33,037 INFO daemonizing the supervisord process
+2015-10-05 20:11:33,037 INFO supervisord started with pid 22835
+2015-10-05 20:11:34,040 INFO spawned: 'myserver' with pid 22836
+2015-10-05 20:11:34,112 DEBG 'myserver' stderr output:
+2015-10-05 20:11:34 [22836] [INFO] Starting gunicorn 17.5
+2015-10-05 20:11:34 [22836] [INFO] Listening at: http://0.0.0.0:80 (22836)
+2015-10-05 20:11:34 [22836] [INFO] Using worker: sync
+
+2015-10-05 20:11:34,113 DEBG 'myserver' stderr output:
+2015-10-05 20:11:34 [22841] [INFO] Booting worker with pid: 22841
+
+2015-10-05 20:11:34,170 DEBG 'myserver' stderr output:
+2015-10-05 20:11:34 [22844] [INFO] Booting worker with pid: 22844
+
+2015-10-05 20:11:34,226 DEBG 'myserver' stderr output:
+2015-10-05 20:11:34 [22847] [INFO] Booting worker with pid: 22847
+
+2015-10-05 20:11:34,260 DEBG 'myserver' stderr output:
+2015-10-05 20:11:34 [22848] [INFO] Booting worker with pid: 22848
+
+2015-10-05 20:11:35,261 INFO success: myserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2015-10-06 11:19:19,574 DEBG 'myserver' stdout output:
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords10141.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords10141 INNER JOIN RecipesCount10141 ON ModWords10141.words=RecipesCount10141.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords7565.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords7565 INNER JOIN RecipesCount7565 ON ModWords7565.words=RecipesCount7565.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords23600.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords23600 INNER JOIN RecipesCount23600 ON ModWords23600.words=RecipesCount23600.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords9471.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords9471 INNER JOIN RecipesCount9471 ON ModWords9471.words=RecipesCount9471.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords10813.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords10813 INNER JOIN RecipesCount10813 ON ModWords10813.words=RecipesCount10813.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords10222.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords10222 INNER JOIN RecipesCount10222 ON ModWords10222.words=RecipesCount10222.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords19247.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords19247 INNER JOIN RecipesCount19247 ON ModWords19247.words=RecipesCount19247.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords143667.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords143667 INNER JOIN RecipesCount143667 ON ModWords143667.words=RecipesCount143667.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords10687.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords10687 INNER JOIN RecipesCount10687 ON ModWords10687.words=RecipesCount10687.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords51535.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords51535 INNER JOIN RecipesCount51535 ON ModWords51535.words=RecipesCount51535.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords9471.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords9471 INNER JOIN RecipesCount9471 ON ModWords9471.words=RecipesCount9471.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords9827.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords9827 INNER JOIN RecipesCount9827 ON ModWords9827.words=RecipesCount9827.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords25112.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords25112 INNER JOIN RecipesCount25112 ON ModWords25112.words=RecipesCount25112.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords23439.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords23439 INNER JOIN RecipesCount23439 ON ModWords23439.words=RecipesCount23439.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords17165.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords17165 INNER JOIN RecipesCount17165 ON ModWords17165.words=RecipesCount17165.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords15093.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords15093 INNER JOIN RecipesCount15093 ON ModWords15093.words=RecipesCount15093.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords67656.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords67656 INNER JOIN RecipesCount67656 ON ModWords67656.words=RecipesCount67656.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords102133.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords102133 INNER JOIN RecipesCount102133 ON ModWords102133.words=RecipesCount102133.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords9870.numTot,mod
+2015-10-06 17:25:11,962 DEBG 'myserver' stderr output:
+2015-10-06 17:25:11 [22844] [ERROR] Error processing request.
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 88, in handle
+    self.handle_request(listener, req, client, addr)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 132, in handle_request
+    resp.write(item)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 301, in write
+    util.write(self.sock, arg, self.chunked)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 306, in write
+    sock.sendall(data)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 104] Connection reset by peer
+
+2015-10-06 22:21:52,628 DEBG 'myserver' stdout output:
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords10497.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords10497 INNER JOIN RecipesCount10497 ON ModWords10497.words=RecipesCount10497.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords8333.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords8333 INNER JOIN RecipesCount8333 ON ModWords8333.words=RecipesCount8333.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords22544.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords22544 INNER JOIN RecipesCount22544 ON ModWords22544.words=RecipesCount22544.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords15880.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords15880 INNER JOIN RecipesCount15880 ON ModWords15880.words=RecipesCount15880.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords10308.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords10308 INNER JOIN RecipesCount10308 ON ModWords10308.words=RecipesCount10308.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords10402.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords10402 INNER JOIN RecipesCount10402 ON ModWords10402.words=RecipesCount10402.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords12142.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords12142 INNER JOIN RecipesCount12142 ON ModWords12142.words=RecipesCount12142.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords15004.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords15004 INNER JOIN RecipesCount15004 ON ModWords15004.words=RecipesCount15004.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords8350.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords8350 INNER JOIN RecipesCount8350 ON ModWords8350.words=RecipesCount8350.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords23600.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords23600 INNER JOIN RecipesCount23600 ON ModWords23600.words=RecipesCount23600.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords8372.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords8372 INNER JOIN RecipesCount8372 ON ModWords8372.words=RecipesCount8372.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords17981.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords17981 INNER JOIN RecipesCount17981 ON ModWords17981.words=RecipesCount17981.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords15004.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords15004 INNER JOIN RecipesCount15004 ON ModWords15004.words=RecipesCount15004.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords24445.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords24445 INNER JOIN RecipesCount24445 ON ModWords24445.words=RecipesCount24445.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords24445.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords24445 INNER JOIN RecipesCount24445 ON ModWords24445.words=RecipesCount24445.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords10497.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords10497 INNER JOIN RecipesCount10497 ON ModWords10497.words=RecipesCount10497.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords15004.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords15004 INNER JOIN RecipesCount15004 ON ModWords15004.words=RecipesCount15004.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords7402.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords7402 INNER JOIN RecipesCount7402 ON ModWords7402.words=RecipesCount7402.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords19247.numTot,modFoodEx,in
+2015-10-06 22:53:05,827 DEBG 'myserver' stdout output:
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords24445.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords24445 INNER JOIN RecipesCount24445 ON ModWords24445.words=RecipesCount24445.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords24445.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords24445 INNER JOIN RecipesCount24445 ON ModWords24445.words=RecipesCount24445.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords15004.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords15004 INNER JOIN RecipesCount15004 ON ModWords15004.words=RecipesCount15004.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords25037.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords25037 INNER JOIN RecipesCount25037 ON ModWords25037.words=RecipesCount25037.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords10549.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords10549 INNER JOIN RecipesCount10549 ON ModWords10549.words=RecipesCount10549.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords10497.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords10497 INNER JOIN RecipesCount10497 ON ModWords10497.words=RecipesCount10497.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords21398.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords21398 INNER JOIN RecipesCount21398 ON ModWords21398.words=RecipesCount21398.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords8372.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords8372 INNER JOIN RecipesCount8372 ON ModWords8372.words=RecipesCount8372.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords10222.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords10222 INNER JOIN RecipesCount10222 ON ModWords10222.words=RecipesCount10222.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords9999.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords9999 INNER JOIN RecipesCount9999 ON ModWords9999.words=RecipesCount9999.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords22544.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords22544 INNER JOIN RecipesCount22544 ON ModWords22544.words=RecipesCount22544.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords12409.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords12409 INNER JOIN RecipesCount12409 ON ModWords12409.words=RecipesCount12409.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords25037.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords25037 INNER JOIN RecipesCount25037 ON ModWords25037.words=RecipesCount25037.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords17165.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords17165 INNER JOIN RecipesCount17165 ON ModWords17165.words=RecipesCount17165.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords8270.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords8270 INNER JOIN RecipesCount8270 ON ModWords8270.words=RecipesCount8270.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords8372.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords8372 INNER JOIN RecipesCount8372 ON ModWords8372.words=RecipesCount8372.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords9870.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords9870 INNER JOIN RecipesCount9870 ON ModWords9870.words=RecipesCount9870.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords7565.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords7565 INNER JOIN RecipesCount7565 ON ModWords7565.words=RecipesCount7565.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords15093.numTot,modFoodEx,inc_addFoodE
+2015-10-06 23:47:19,111 DEBG 'myserver' stdout output:
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords15004.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords15004 INNER JOIN RecipesCount15004 ON ModWords15004.words=RecipesCount15004.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords23439.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords23439 INNER JOIN RecipesCount23439 ON ModWords23439.words=RecipesCount23439.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords25112.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords25112 INNER JOIN RecipesCount25112 ON ModWords25112.words=RecipesCount25112.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords19247.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords19247 INNER JOIN RecipesCount19247 ON ModWords19247.words=RecipesCount19247.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords10402.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords10402 INNER JOIN RecipesCount10402 ON ModWords10402.words=RecipesCount10402.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords24445.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords24445 INNER JOIN RecipesCount24445 ON ModWords24445.words=RecipesCount24445.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords7177.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords7177 INNER JOIN RecipesCount7177 ON ModWords7177.words=RecipesCount7177.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords13477.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords13477 INNER JOIN RecipesCount13477 ON ModWords13477.words=RecipesCount13477.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords143667.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords143667 INNER JOIN RecipesCount143667 ON ModWords143667.words=RecipesCount143667.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords8333.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords8333 INNER JOIN RecipesCount8333 ON ModWords8333.words=RecipesCount8333.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords15004.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords15004 INNER JOIN RecipesCount15004 ON ModWords15004.words=RecipesCount15004.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords15880.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords15880 INNER JOIN RecipesCount15880 ON ModWords15880.words=RecipesCount15880.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords17165.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords17165 INNER JOIN RecipesCount17165 ON ModWords17165.words=RecipesCount17165.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords8333.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords8333 INNER JOIN RecipesCount8333 ON ModWords8333.words=RecipesCount8333.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords143667.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords143667 INNER JOIN RecipesCount143667 ON ModWords143667.words=RecipesCount143667.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords15880.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords15880 INNER JOIN RecipesCount15880 ON ModWords15880.words=RecipesCount15880.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords15004.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords15004 INNER JOIN RecipesCount15004 ON ModWords15004.words=RecipesCount15004.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords10687.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords10687 INNER JOIN RecipesCount10687 ON ModWords10687.words=RecipesCount10687.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords10549.numT
+2015-10-07 13:32:42,942 DEBG 'myserver' stdout output:
+FoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords9870 INNER JOIN RecipesCount9870 ON ModWords9870.words=RecipesCount9870.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords8270.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords8270 INNER JOIN RecipesCount8270 ON ModWords8270.words=RecipesCount8270.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords24445.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords24445 INNER JOIN RecipesCount24445 ON ModWords24445.words=RecipesCount24445.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords9998.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords9998 INNER JOIN RecipesCount9998 ON ModWords9998.words=RecipesCount9998.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords8350.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords8350 INNER JOIN RecipesCount8350 ON ModWords8350.words=RecipesCount8350.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords9471.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords9471 INNER JOIN RecipesCount9471 ON ModWords9471.words=RecipesCount9471.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords9999.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords9999 INNER JOIN RecipesCount9999 ON ModWords9999.words=RecipesCount9999.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords9827.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords9827 INNER JOIN RecipesCount9827 ON ModWords9827.words=RecipesCount9827.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords7177.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords7177 INNER JOIN RecipesCount7177 ON ModWords7177.words=RecipesCount7177.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords15821.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords15821 INNER JOIN RecipesCount15821 ON ModWords15821.words=RecipesCount15821.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords17981.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords17981 INNER JOIN RecipesCount17981 ON ModWords17981.words=RecipesCount17981.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords17481.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords17481 INNER JOIN RecipesCount17481 ON ModWords17481.words=RecipesCount17481.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords17165.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords17165 INNER JOIN RecipesCount17165 ON ModWords17165.words=RecipesCount17165.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords12682.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords12682 INNER JOIN RecipesCount12682 ON ModWords12682.words=RecipesCount12682.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords12142.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords12142 INNER JOIN RecipesCount12142 ON ModWords12142.words=RecipesCount12142.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords24445.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords24445 INNER JOIN RecipesCount24445 ON ModWords24445.words=RecipesCount24445.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords25112.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords25112 INNER JOIN RecipesCount25112 ON ModWords25112.words=RecipesCount25112.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords10813.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords10813 INNER JOIN RecipesCount10813 ON ModWords10813.words=RecipesCount10813.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords23600.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords23600 INNER JOIN RecipesCount23600 ON M
+2015-10-07 13:32:43,517 DEBG 'myserver' stdout output:
+ot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords10549 INNER JOIN RecipesCount10549 ON ModWords10549.words=RecipesCount10549.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords10308.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords10308 INNER JOIN RecipesCount10308 ON ModWords10308.words=RecipesCount10308.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords13477.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords13477 INNER JOIN RecipesCount13477 ON ModWords13477.words=RecipesCount13477.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords12409.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords12409 INNER JOIN RecipesCount12409 ON ModWords12409.words=RecipesCount12409.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords21398.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords21398 INNER JOIN RecipesCount21398 ON ModWords21398.words=RecipesCount21398.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords23600.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords23600 INNER JOIN RecipesCount23600 ON ModWords23600.words=RecipesCount23600.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords17165.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords17165 INNER JOIN RecipesCount17165 ON ModWords17165.words=RecipesCount17165.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords51535.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords51535 INNER JOIN RecipesCount51535 ON ModWords51535.words=RecipesCount51535.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords10402.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords10402 INNER JOIN RecipesCount10402 ON ModWords10402.words=RecipesCount10402.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords15004.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords15004 INNER JOIN RecipesCount15004 ON ModWords15004.words=RecipesCount15004.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords25037.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords25037 INNER JOIN RecipesCount25037 ON ModWords25037.words=RecipesCount25037.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords10687.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords10687 INNER JOIN RecipesCount10687 ON ModWords10687.words=RecipesCount10687.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords10497.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords10497 INNER JOIN RecipesCount10497 ON ModWords10497.words=RecipesCount10497.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords12682.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords12682 INNER JOIN RecipesCount12682 ON ModWords12682.words=RecipesCount12682.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords12142.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords12142 INNER JOIN RecipesCount12142 ON ModWords12142.words=RecipesCount12142.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords23439.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords23439 INNER JOIN RecipesCount23439 ON ModWords23439.words=RecipesCount23439.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords7565.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords7565 INNER JOIN RecipesCount7565 ON ModWords7565.words=RecipesCount7565.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords8350.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords8350 INNER JOIN RecipesCount8350 ON ModWords8350.words=RecipesCount8350.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords17481.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords1748
+2015-10-08 08:25:50,464 DEBG 'myserver' stdout output:
+c_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords19247 INNER JOIN RecipesCount19247 ON ModWords19247.words=RecipesCount19247.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords10497.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords10497 INNER JOIN RecipesCount10497 ON ModWords10497.words=RecipesCount10497.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords10402.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords10402 INNER JOIN RecipesCount10402 ON ModWords10402.words=RecipesCount10402.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords10275.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords10275 INNER JOIN RecipesCount10275 ON ModWords10275.words=RecipesCount10275.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords10222.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords10222 INNER JOIN RecipesCount10222 ON ModWords10222.words=RecipesCount10222.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords25037.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords25037 INNER JOIN RecipesCount25037 ON ModWords25037.words=RecipesCount25037.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords25642.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords25642 INNER JOIN RecipesCount25642 ON ModWords25642.words=RecipesCount25642.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords102133.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords102133 INNER JOIN RecipesCount102133 ON ModWords102133.words=RecipesCount102133.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords10141.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords10141 INNER JOIN RecipesCount10141 ON ModWords10141.words=RecipesCount10141.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords15880.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords15880 INNER JOIN RecipesCount15880 ON ModWords15880.words=RecipesCount15880.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords7402.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords7402 INNER JOIN RecipesCount7402 ON ModWords7402.words=RecipesCount7402.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords8372.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords8372 INNER JOIN RecipesCount8372 ON ModWords8372.words=RecipesCount8372.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords102133.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords102133 INNER JOIN RecipesCount102133 ON ModWords102133.words=RecipesCount102133.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords9827.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords9827 INNER JOIN RecipesCount9827 ON ModWords9827.words=RecipesCount9827.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords10308.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords10308 INNER JOIN RecipesCount10308 ON ModWords10308.words=RecipesCount10308.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords102133.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords102133 INNER JOIN RecipesCount102133 ON ModWords102133.words=RecipesCount102133.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords51535.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords51535 INNER JOIN RecipesCount51535 ON ModWords51535.words=RecipesCount51535.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords15880.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords15880 INNER JOIN RecipesCount15880 ON ModWords15880.words=RecipesCount15880.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords10222.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords10222 INN
+2015-10-08 15:11:50,578 WARN received SIGTERM indicating exit request
+2015-10-08 15:11:50,578 DEBG killing myserver (pid 22836) with signal SIGTERM
+2015-10-08 15:11:50,578 INFO waiting for myserver to die
+2015-10-08 15:11:50,596 DEBG 'myserver' stderr output:
+2015-10-08 15:11:50 [22836] [INFO] Handling signal: term
+2015-10-08 15:11:50 [22848] [INFO] Worker exiting (pid: 22848)
+2015-10-08 15:11:50 [22841] [INFO] Worker exiting (pid: 22841)
+2015-10-08 15:11:50 [22844] [INFO] Worker exiting (pid: 22844)
+2015-10-08 15:11:50 [22847] [INFO] Worker exiting (pid: 22847)
+
+2015-10-08 15:11:50,596 DEBG 'myserver' stdout output:
+odWords23600.words=RecipesCount23600.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords15093.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords15093 INNER JOIN RecipesCount15093 ON ModWords15093.words=RecipesCount15093.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords8270.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords8270 INNER JOIN RecipesCount8270 ON ModWords8270.words=RecipesCount8270.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords12409.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords12409 INNER JOIN RecipesCount12409 ON ModWords12409.words=RecipesCount12409.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords9471.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords9471 INNER JOIN RecipesCount9471 ON ModWords9471.words=RecipesCount9471.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords25112.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords25112 INNER JOIN RecipesCount25112 ON ModWords25112.words=RecipesCount25112.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords9827.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords9827 INNER JOIN RecipesCount9827 ON ModWords9827.words=RecipesCount9827.foodword
+ER JOIN RecipesCount10222 ON ModWords10222.words=RecipesCount10222.foodword
+1 INNER JOIN RecipesCount17481 ON ModWords17481.words=RecipesCount17481.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords25642.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords25642 INNER JOIN RecipesCount25642 ON ModWords25642.words=RecipesCount25642.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords8333.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords8333 INNER JOIN RecipesCount8333 ON ModWords8333.words=RecipesCount8333.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords17981.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords17981 INNER JOIN RecipesCount17981 ON ModWords17981.words=RecipesCount17981.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords51535.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords51535 INNER JOIN RecipesCount51535 ON ModWords51535.words=RecipesCount51535.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords9998.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords9998 INNER JOIN RecipesCount9998 ON ModWords9998.words=RecipesCount9998.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords9870.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords9870 INNER JOIN RecipesCount9870 ON ModWords9870.words=RecipesCount9870.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords143667.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords143667 INNER JOIN RecipesCount143667 ON ModWords143667.words=RecipesCount143667.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords19247.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords19247 INNER JOIN RecipesCount19247 ON ModWords19247.words=RecipesCount19247.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords21398.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords21398 INNER JOIN RecipesCount21398 ON ModWords21398.words=RecipesCount21398.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords10275.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords10275 INNER JOIN RecipesCount10275 ON ModWords10275.words=RecipesCount10275.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords9999.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords9999 INNER JOIN RecipesCount9999 ON ModWords9999.words=RecipesCount9999.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords10222.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords10222 INNER JOIN RecipesCount10222 ON ModWords10222.words=RecipesCount10222.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords102133.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords102133 INNER JOIN RecipesCount102133 ON ModWords102133.words=RecipesCount102133.foodword
+x,incFoodEx,decFoodEx,subFoodEx FROM ModWords15093 INNER JOIN RecipesCount15093 ON ModWords15093.words=RecipesCount15093.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords10141.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords10141 INNER JOIN RecipesCount10141 ON ModWords10141.words=RecipesCount10141.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords10813.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords10813 INNER JOIN RecipesCount10813 ON ModWords10813.words=RecipesCount10813.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords67656.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords67656 INNER JOIN RecipesCount67656 ON ModWords67656.words=RecipesCount67656.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords22544.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords22544 INNER JOIN RecipesCount22544 ON ModWords22544.words=RecipesCount22544.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords23439.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords23439 INNER JOIN RecipesCount23439 ON ModWords23439.words=RecipesCount23439.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords24445.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords24445 INNER JOIN RecipesCount24445 ON ModWords24445.words=RecipesCount24445.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords17165.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords17165 INNER JOIN RecipesCount17165 ON ModWords17165.words=RecipesCount17165.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords22544.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords22544 INNER JOIN RecipesCount22544 ON ModWords22544.words=RecipesCount22544.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords13477.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords13477 INNER JOIN RecipesCount13477 ON ModWords13477.words=RecipesCount13477.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords67656.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords67656 INNER JOIN RecipesCount67656 ON ModWords67656.words=RecipesCount67656.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords10549.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords10549 INNER JOIN RecipesCount10549 ON ModWords10549.words=RecipesCount10549.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords7177.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords7177 INNER JOIN RecipesCount7177 ON ModWords7177.words=RecipesCount7177.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords15821.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords15821 INNER JOIN RecipesCount15821 ON ModWords15821.words=RecipesCount15821.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords15004.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords15004 INNER JOIN RecipesCount15004 ON ModWords15004.words=RecipesCount15004.foodword
+
+2015-10-08 15:11:50,624 DEBG 'myserver' stderr output:
+2015-10-08 15:11:50 [22836] [INFO] Shutting down: Master
+
+2015-10-08 15:11:50,629 DEBG fd 6 closed, stopped monitoring <POutputDispatcher at 139947295686808 for <Subprocess at 139947295625160 with name myserver in state STOPPING> (stdout)>
+2015-10-08 15:11:50,629 DEBG fd 8 closed, stopped monitoring <POutputDispatcher at 139947295687024 for <Subprocess at 139947295625160 with name myserver in state STOPPING> (stderr)>
+2015-10-08 15:11:50,630 INFO stopped: myserver (exit status 0)
+2015-10-08 15:11:50,630 DEBG received SIGCLD indicating a child quit
+2015-10-08 15:12:12,835 CRIT Set uid to user 0
+2015-10-08 15:12:12,838 INFO daemonizing the supervisord process
+2015-10-08 15:12:12,838 INFO supervisord started with pid 14513
+2015-10-08 15:12:13,840 INFO spawned: 'myserver' with pid 14514
+2015-10-08 15:12:13,912 DEBG 'myserver' stderr output:
+2015-10-08 15:12:13 [14514] [INFO] Starting gunicorn 17.5
+2015-10-08 15:12:13 [14514] [INFO] Listening at: http://0.0.0.0:80 (14514)
+2015-10-08 15:12:13 [14514] [INFO] Using worker: sync
+
+2015-10-08 15:12:13,913 DEBG 'myserver' stderr output:
+2015-10-08 15:12:13 [14519] [INFO] Booting worker with pid: 14519
+
+2015-10-08 15:12:13,979 DEBG 'myserver' stderr output:
+2015-10-08 15:12:13 [14522] [INFO] Booting worker with pid: 14522
+
+2015-10-08 15:12:14,054 DEBG 'myserver' stderr output:
+2015-10-08 15:12:14 [14525] [INFO] Booting worker with pid: 14525
+
+2015-10-08 15:12:14,127 DEBG 'myserver' stderr output:
+2015-10-08 15:12:14 [14528] [INFO] Booting worker with pid: 14528
+
+2015-10-08 15:12:15,128 INFO success: myserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2015-10-12 15:59:40,107 WARN received SIGTERM indicating exit request
+2015-10-12 15:59:40,107 DEBG killing myserver (pid 14514) with signal SIGTERM
+2015-10-12 15:59:40,107 INFO waiting for myserver to die
+2015-10-12 15:59:40,113 DEBG 'myserver' stderr output:
+2015-10-12 15:59:40 [14514] [INFO] Handling signal: term
+2015-10-12 15:59:40 [14528] [INFO] Worker exiting (pid: 14528)
+
+2015-10-12 15:59:40,113 DEBG 'myserver' stdout output:
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords24445.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords24445 INNER JOIN RecipesCount24445 ON ModWords24445.words=RecipesCount24445.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords10497.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords10497 INNER JOIN RecipesCount10497 ON ModWords10497.words=RecipesCount10497.foodword
+
+2015-10-12 15:59:40,127 DEBG 'myserver' stderr output:
+2015-10-12 15:59:40 [14522] [INFO] Worker exiting (pid: 14522)
+2015-10-12 15:59:40 [14525] [INFO] Worker exiting (pid: 14525)
+2015-10-12 15:59:40 [14519] [INFO] Worker exiting (pid: 14519)
+
+2015-10-12 15:59:40,127 DEBG 'myserver' stdout output:
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords15004.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords15004 INNER JOIN RecipesCount15004 ON ModWords15004.words=RecipesCount15004.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords10497.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords10497 INNER JOIN RecipesCount10497 ON ModWords10497.words=RecipesCount10497.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords17165.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords17165 INNER JOIN RecipesCount17165 ON ModWords17165.words=RecipesCount17165.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords10497.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords10497 INNER JOIN RecipesCount10497 ON ModWords10497.words=RecipesCount10497.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords15004.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords15004 INNER JOIN RecipesCount15004 ON ModWords15004.words=RecipesCount15004.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords15004.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords15004 INNER JOIN RecipesCount15004 ON ModWords15004.words=RecipesCount15004.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords24445.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords24445 INNER JOIN RecipesCount24445 ON ModWords24445.words=RecipesCount24445.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords24445.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords24445 INNER JOIN RecipesCount24445 ON ModWords24445.words=RecipesCount24445.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords10497.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords10497 INNER JOIN RecipesCount10497 ON ModWords10497.words=RecipesCount10497.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords17165.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords17165 INNER JOIN RecipesCount17165 ON ModWords17165.words=RecipesCount17165.foodword
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords10497.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords10497 INNER JOIN RecipesCount10497 ON ModWords10497.words=RecipesCount10497.foodword
+
+2015-10-12 15:59:40,156 DEBG 'myserver' stderr output:
+2015-10-12 15:59:40 [14514] [INFO] Shutting down: Master
+
+2015-10-12 15:59:40,160 DEBG fd 6 closed, stopped monitoring <POutputDispatcher at 140431595888792 for <Subprocess at 140431595827144 with name myserver in state STOPPING> (stdout)>
+2015-10-12 15:59:40,160 DEBG fd 8 closed, stopped monitoring <POutputDispatcher at 140431595889008 for <Subprocess at 140431595827144 with name myserver in state STOPPING> (stderr)>
+2015-10-12 15:59:40,160 INFO stopped: myserver (exit status 0)
+2015-10-12 15:59:40,160 DEBG received SIGCLD indicating a child quit
+2015-10-12 16:00:38,717 CRIT Set uid to user 0
+2015-10-12 16:00:38,720 INFO daemonizing the supervisord process
+2015-10-12 16:00:38,720 INFO supervisord started with pid 20067
+2015-10-12 16:00:39,723 INFO spawned: 'myserver' with pid 20068
+2015-10-12 16:00:39,796 DEBG 'myserver' stderr output:
+2015-10-12 16:00:39 [20068] [INFO] Starting gunicorn 17.5
+2015-10-12 16:00:39 [20068] [INFO] Listening at: http://0.0.0.0:80 (20068)
+2015-10-12 16:00:39 [20068] [INFO] Using worker: sync
+
+2015-10-12 16:00:39,797 DEBG 'myserver' stderr output:
+2015-10-12 16:00:39 [20073] [INFO] Booting worker with pid: 20073
+
+2015-10-12 16:00:39,825 DEBG 'myserver' stderr output:
+2015-10-12 16:00:39 [20074] [INFO] Booting worker with pid: 20074
+
+2015-10-12 16:00:39,920 DEBG 'myserver' stderr output:
+2015-10-12 16:00:39 [20079] [INFO] Booting worker with pid: 20079
+
+2015-10-12 16:00:40,009 DEBG 'myserver' stderr output:
+2015-10-12 16:00:40 [20082] [INFO] Booting worker with pid: 20082
+
+2015-10-12 16:00:41,010 INFO success: myserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2015-10-14 05:42:51,587 WARN received SIGTERM indicating exit request
+2015-10-14 05:42:51,587 DEBG killing myserver (pid 20068) with signal SIGTERM
+2015-10-14 05:42:51,587 INFO waiting for myserver to die
+2015-10-14 05:42:51,588 DEBG 'myserver' stderr output:
+2015-10-14 05:42:51 [20068] [INFO] Handling signal: term
+
+2015-10-14 05:42:51,588 DEBG 'myserver' stderr output:
+2015-10-14 05:42:51 [20073] [INFO] Worker exiting (pid: 20073)
+
+2015-10-14 05:42:51,588 DEBG 'myserver' stdout output:
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords10497.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords10497 INNER JOIN RecipesCount10497 ON ModWords10497.words=RecipesCount10497.foodword
+
+2015-10-14 05:42:51,596 DEBG 'myserver' stderr output:
+2015-10-14 05:42:51 [20074] [INFO] Worker exiting (pid: 20074)
+
+2015-10-14 05:42:51,600 DEBG 'myserver' stderr output:
+2015-10-14 05:42:51 [20082] [INFO] Worker exiting (pid: 20082)
+
+2015-10-14 05:42:51,600 DEBG 'myserver' stdout output:
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords17165.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords17165 INNER JOIN RecipesCount17165 ON ModWords17165.words=RecipesCount17165.foodword
+
+2015-10-14 05:42:51,604 DEBG 'myserver' stderr output:
+2015-10-14 05:42:51 [20079] [INFO] Worker exiting (pid: 20079)
+
+2015-10-14 05:42:51,604 DEBG 'myserver' stdout output:
+here
+SELECT  words,mixWord,incWord,decWord,addWord,ModWords17165.numTot,modFoodEx,inc_addFoodEx,incFoodEx,decFoodEx,subFoodEx FROM ModWords17165 INNER JOIN RecipesCount17165 ON ModWords17165.words=RecipesCount17165.foodword
+
+2015-10-14 05:42:51,640 DEBG 'myserver' stderr output:
+2015-10-14 05:42:51 [20068] [INFO] Shutting down: Master
+
+2015-10-14 05:42:51,645 DEBG fd 6 closed, stopped monitoring <POutputDispatcher at 140063859429528 for <Subprocess at 140063859367880 with name myserver in state STOPPING> (stdout)>
+2015-10-14 05:42:51,645 DEBG fd 8 closed, stopped monitoring <POutputDispatcher at 140063859429744 for <Subprocess at 140063859367880 with name myserver in state STOPPING> (stderr)>
+2015-10-14 05:42:51,646 INFO stopped: myserver (exit status 0)
+2015-10-14 05:42:51,646 DEBG received SIGCLD indicating a child quit
+2015-10-14 05:42:58,493 CRIT Set uid to user 0
+2015-10-14 05:42:58,496 INFO daemonizing the supervisord process
+2015-10-14 05:42:58,496 INFO supervisord started with pid 23040
+2015-10-14 05:42:59,498 INFO spawned: 'myserver' with pid 23041
+2015-10-14 05:42:59,570 DEBG 'myserver' stderr output:
+2015-10-14 05:42:59 [23041] [INFO] Starting gunicorn 17.5
+2015-10-14 05:42:59 [23041] [INFO] Listening at: http://0.0.0.0:80 (23041)
+2015-10-14 05:42:59 [23041] [INFO] Using worker: sync
+
+2015-10-14 05:42:59,571 DEBG 'myserver' stderr output:
+2015-10-14 05:42:59 [23046] [INFO] Booting worker with pid: 23046
+
+2015-10-14 05:42:59,630 DEBG 'myserver' stderr output:
+2015-10-14 05:42:59 [23049] [INFO] Booting worker with pid: 23049
+
+2015-10-14 05:42:59,701 DEBG 'myserver' stderr output:
+2015-10-14 05:42:59 [23052] [INFO] Booting worker with pid: 23052
+
+2015-10-14 05:42:59,776 DEBG 'myserver' stderr output:
+2015-10-14 05:42:59 [23055] [INFO] Booting worker with pid: 23055
+
+2015-10-14 05:43:00,777 INFO success: myserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2015-10-14 14:06:09,466 WARN received SIGTERM indicating exit request
+2015-10-14 14:06:09,466 DEBG killing myserver (pid 23041) with signal SIGTERM
+2015-10-14 14:06:09,466 INFO waiting for myserver to die
+2015-10-14 14:06:09,473 DEBG 'myserver' stderr output:
+2015-10-14 14:06:09 [23041] [INFO] Handling signal: term
+2015-10-14 14:06:09 [23049] [INFO] Worker exiting (pid: 23049)
+
+2015-10-14 14:06:09,476 DEBG 'myserver' stderr output:
+2015-10-14 14:06:09 [23052] [INFO] Worker exiting (pid: 23052)
+
+2015-10-14 14:06:09,484 DEBG 'myserver' stderr output:
+2015-10-14 14:06:09 [23046] [INFO] Worker exiting (pid: 23046)
+2015-10-14 14:06:09 [23055] [INFO] Worker exiting (pid: 23055)
+
+2015-10-14 14:06:09,512 DEBG 'myserver' stderr output:
+2015-10-14 14:06:09 [23041] [INFO] Shutting down: Master
+
+2015-10-14 14:06:09,516 DEBG fd 6 closed, stopped monitoring <POutputDispatcher at 139741646770328 for <Subprocess at 139741646708680 with name myserver in state STOPPING> (stdout)>
+2015-10-14 14:06:09,516 DEBG fd 8 closed, stopped monitoring <POutputDispatcher at 139741646770544 for <Subprocess at 139741646708680 with name myserver in state STOPPING> (stderr)>
+2015-10-14 14:06:09,516 INFO stopped: myserver (exit status 0)
+2015-10-14 14:06:09,516 DEBG received SIGCLD indicating a child quit

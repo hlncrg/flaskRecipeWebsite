@@ -1,0 +1,69 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>BakeAgain</title>
+	<meta name="description" content="Twitter Bootstrap Parallax Tutorial with HTML5 / CSS3 / JavaScript">
+	<meta name="author" content="Untame.net">
+
+	<link href="../static/css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link href="{{ url_for('static', filename='css/css.css') }}" rel="stylesheet" media="screen">
+	<script src="../static/js/jQuery.js"></script>
+	<script src="../static/js/bootstrap.min.js"></script>
+	<script src="../static/js/init.js"></script>
+
+</head>
+
+<body>
+
+  {% include 'navbar.html'%}
+
+	<!-- Section #2 -->
+	<section id="home" data-speed="4" data-type="background">
+  {% for recipeName in recipeNames %}
+  {% set outer_loop = loop%}
+  {% if loop.index0 % 3 == 0 %}
+      <div class="row">
+      <div class="col-md-12">
+  {% endif %}
+
+<div class="col-md-4">
+<div class="well">
+<h1>{{recipeName}}</h1>
+              <p>{{recipeIds[loop.index0]}}</p>
+              <div class="text-right">
+              <img src="/images/{{recipeIds[loop.index0]}}.jpg" alt="..." class="img-rounded">
+              </div>
+              {%for impWord in impWords%}
+              {%if impWord[0]==recipeIds[outer_loop.index0] and impWord[1][3]< 0.1  and ( impWord[1][1] > 0.5 or impWord[1][2] > 0.7 ) %}
+              <p>{{impWord[1]}}, {{impWord[1][3]}}</p>
+              {% endif %}
+             {% endfor %}
+
+              {%for modWord in modWords%}
+              {%if modWord[0]==recipeIds[outer_loop.index0]  %}
+              <p>{{modWord}}}</p>
+              {% endif %}
+             {% endfor %}
+
+              <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibul
+              <p><a class="btn btn-success" href="/recipe/{{recipeIds[loop.index0]}}">View details &raquo;</a></p>
+
+
+</div>
+</div>
+
+  {% if (loop.index0+1) % 3 == 0 %}
+  </div>
+  </div>
+  {% endif %}
+
+  {% endfor%}
+
+	</section>
+
+{% include 'underbar.html'%}
+
+</body>
+
+</html>
